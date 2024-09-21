@@ -1,0 +1,22 @@
+.responsive-bg{
+    background-image: url(../img/responsive_bg.jpg);
+    background-size: cover; 
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.card img{
+    width: 65px;
+    height: 65px;
+  }
+
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.teste {
+    z-index: 10;
+}

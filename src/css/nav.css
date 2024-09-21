@@ -1,0 +1,13 @@
+.img-logo{
+    width: 160px;
+    height: auto;
+}
+
+.fixed-top {
+    background-image: url(../img/hero_bg_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+

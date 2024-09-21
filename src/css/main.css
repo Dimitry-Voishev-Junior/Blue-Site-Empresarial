@@ -1,0 +1,12 @@
+main {
+  height: 100vh;
+}
+
+.main-bg{
+  background-image: url(../img/hero_bg_image.png);
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
