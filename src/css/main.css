@@ -4,8 +4,7 @@ main {
 
 .main-bg {
   background: url(../img/hero_bg_image.png) no-repeat center center fixed;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   height: 100vh;
   position: relative;
 }
