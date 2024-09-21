@@ -1,15 +1,15 @@
-.responsive-bg{
+.responsive-bg {
     background-image: url(../img/responsive_bg.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
     position: relative;
 }
 
-.card img{
+.card img {
     width: 65px;
     height: 65px;
-  }
+}
 
 
 .row {
@@ -20,3 +20,17 @@
 .teste {
     z-index: 10;
 }
+
+responsive .card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+div .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+

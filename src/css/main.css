@@ -3,10 +3,10 @@ main {
 }
 
 .main-bg{
-  background-image: url(../img/hero_bg_image.png);
+  background: url(../img/hero_bg_image.png) no-repeat center center fixed;
   background-size: cover; 
   background-position: center;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
 }
 

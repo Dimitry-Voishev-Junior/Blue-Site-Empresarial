@@ -11,3 +11,10 @@
     background-attachment: fixed;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #041154
+  }
+
