@@ -3,8 +3,9 @@ main {
 }
 
 .main-bg {
-  background: url(../img/hero_bg_image.png) no-repeat center center fixed;
+  background: url(../img/hero_bg_image.png) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   position: relative;
 }

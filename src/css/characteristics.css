@@ -1,4 +1,4 @@
-.characteristics ul li img{
+.characteristics ul li img {
     width: 22px;
     height: 20px;
 }
@@ -14,7 +14,9 @@
 }
 
 @media (max-width: 425px) {
-    .li-columns{
+    .li-columns {
         column-count: 1;
+        margin-left: 15%;
     }
+
 }

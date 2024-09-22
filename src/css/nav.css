@@ -1,20 +1,14 @@
-.img-logo{
+.img-logo {
     width: 160px;
     height: auto;
 }
 
 .fixed-top {
-    background-image: url(../img/hero_bg_image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url(../img/hero_bg_image.png) no-repeat center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 .navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    background-color: #041154
-  }
-
+    background-color: #081456;
+}
