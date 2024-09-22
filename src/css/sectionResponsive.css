@@ -37,3 +37,15 @@ div .card-body {
 .card-responsive{
     height: 200px;
 }
+
+
+@media (max-width: 425px) {
+    .responsive-bg {
+        background-image: url(../img/bg-section.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        position: relative;
+    }
+  
+  }
