@@ -3,12 +3,9 @@
     height: auto;
 }
 
-.fixed-top {
-    background: url(../img/hero_bg_image.png) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .navbar {
-    background-color: #081456;
+    background-image: url(../img/hero_bg_image.png);
+    background-color: #0C124A;
 }

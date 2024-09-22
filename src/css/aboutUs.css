@@ -1,0 +1,15 @@
+
+.about-us-bg {
+  background-image: url(../img/bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 425px) {
+  .about-us-content {
+    text-align: center;
+  }
+
+}
