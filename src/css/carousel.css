@@ -3,9 +3,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/src/img/carousel-bg.jpg);
   min-height: 100vh;
   padding-bottom: 100px;
+}
+
+.testimonial-bg {
+  background-image: url(/src/img/carousel-bg.jpg);
 }
 
 #testimonial h1 {
