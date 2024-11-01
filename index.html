@@ -39,10 +39,10 @@
               <a class="nav-link" href="#home">Início</a>
             </li>
             <li class="nav-item fs-4">
-              <a class="nav-link" href="#aboutUs">Sobre</a>
+              <a class="nav-link" href="#servico">Serviços</a>
             </li>
             <li class="nav-item fs-4">
-              <a class="nav-link" href="#">Serviços</a>
+              <a class="nav-link" href="#aboutUs">Sobre Nós</a>
             </li>
             <li class="nav-item fs-4">
               <a class="nav-link" href="#testimonial">Depoimentos</a>
@@ -72,7 +72,7 @@
 
 
   <!-- Características -->
-  <section class="container characteristics mb-5">
+  <section class="container characteristics mb-5" id="servico">
     <div class="row">
       <h4 class="text-center mt-5">CARACTERÍSTICAS</h4>
       <h2 class="text-center mb-5">Nossos Recursos <span class="span-color">Essenciais</span></h2>
@@ -179,7 +179,7 @@
 
   <!-- SOBRE NÓS -->
   <div class="about-us-bg">
-    <section id="aboutUs" class="container d-flex align-items-center min-vh-100">
+    <section id="aboutUs" class="container d-flex align-items-center min-vh-100 py-5">
       <div class="row w-100">
         <div class="col-md-6 d-flex align-items-center">
           <div class="about-us-content">
@@ -203,12 +203,10 @@
       </div>
     </section>
   </div>
+  
 
   <!-- DEPOIMENTOS -->
-
-
-  <!-- DEPOIMENTOS -->
-  <section id="testimonial">
+  <section id="testimonial" class="py-5">
     <h1 class="text-center text-white">Depoimentos</h1>
     <div class="wrapper">
       <div class="swiper mySwiper">
@@ -225,8 +223,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/lucasAlmeida.jpeg"
+                    />
                   </div>
                   <h3>Lucas Almeida</h3>
                 </div>
@@ -245,8 +243,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/marianaFerreira.jpeg"
+                    />
                   </div>
                   <h3>Mariana Ferreira</h3>
                 </div>
@@ -265,8 +263,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/rafaelSantos.jpeg"
+                    />
                   </div>
                   <h3>Rafael Santos</h3>
                 </div>
@@ -285,8 +283,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/carlaMenezes.jpeg"
+                    />
                   </div>
                   <h3>Carla Menezes</h3>
                 </div>
@@ -305,8 +303,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/diegoSouza.jpeg"
+                      />
                   </div>
                   <h3>Diego Souza</h3>
                 </div>
@@ -325,8 +323,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/larrisaOliveira.jpeg"
+                    />
                   </div>
                   <h3>Larissa Oliveira</h3>
                 </div>
@@ -345,8 +343,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/pedroLima.jpeg"
+                    />
                   </div>
                   <h3>Pedro Lima</h3>
                 </div>
@@ -365,8 +363,8 @@
                 <div class="profile">
                   <div class="image">
                     <img
-                      src="https://pm1.aminoapps.com/8213/d1d6963a50a6647a7ede906863cbec1279b50ce6r1-300-168v2_00.jpg"
-                      alt="" />
+                      src="src/img/anaClara.jpeg"
+                    />
                   </div>
                   <h3>Ana Clara</h3>
                 </div>
@@ -405,8 +403,8 @@
 
 
   <!-- FAQ -->
-  <section class="faq p-3 w-75 mb-5">
-    <h4 class="mt-5 text-center">F.A.Q</h4>
+  <section class="faq p-3 w-75 py-5 ">
+    <h4 class=" text-center">F.A.Q</h4>
     <h2 class="mb-5 text-center">Precisa de <span class="span-color">Suporte</span>?</h2>
     <div class="accordion accordion-flush" id="accordionFlush">
       <div class="accordion-item">
@@ -471,13 +469,29 @@
   </section>
 
 
-  <footer id="footer" class="mt-3 text-center p-3">
+  <footer id="footer" class=" text-center">
+    <p class="socialMediaText">Siga-nos nas redes sociais</p>
+    <div class="d-flex justify-content-center socialMedia">
+      <a href="https://facebook.com" target="_blank">
+        <img src="src/img/facebook-icon.png" alt="Facebook" width="30">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="src/img/instagram-icon.png" alt="Instagram" width="30">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="src/img/twitter-icon.png" alt="Twitter" width="30">
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <img src="src/img/linkedin-icon.png" alt="LinkedIn" width="30">
+      </a>
+    </div>
     <div class="container text-white">
       <p class="d-inline">&copy; 2024 Blue. Todos os direitos reservados.</p>
     </div>
   </footer>
 
   <script src="src/bootstrap/js/bootstrap.min.js"></script>
+  <script src="src/js/navbar.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.0/swiper-bundle.min.js"></script>
   <script src="src/js/carousel.js"></script>
 </body>

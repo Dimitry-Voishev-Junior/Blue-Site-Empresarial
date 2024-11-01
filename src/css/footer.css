@@ -1,4 +1,24 @@
 #footer{
     background-image: url(../img/hero_bg_image.png);
     background-color: #0C124A;
+    color: #ffffff;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .socialMedia {
+    margin-bottom: 10px;
+}
+
+footer .socialMediaText {
+    margin-top: 10px;
 }
