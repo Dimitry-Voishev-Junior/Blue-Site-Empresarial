@@ -5,7 +5,7 @@
   flex-direction: column;
   min-height: 100vh;
   padding-bottom: 100px;
-  background-image: url(/src/img/carousel-bg.jpg);
+  background-image: url(../img/carousel-bg.jpg);
 }
 
 #testimonial h1 {
